@@ -7,7 +7,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from langdetect import DetectorFactory, detect
 
-DetectorFactory.seed = 0  # make language detection deterministic
+DetectorFactory.seed = 0 
 
 QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
                         "–": "-", "—": "-", "…": "..."})
@@ -31,8 +31,8 @@ def normalize_unicode(text):
 
 def clean_whitespace(text):
     text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"[^\S\n]+", " ", text)      # collapse spaces/tabs
-    text = re.sub(r" ?\n ?", "\n", text)       # trim around newlines
+    text = re.sub(r"[^\S\n]+", " ", text)
+    text = re.sub(r" ?\n ?", "\n", text)
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
@@ -45,7 +45,7 @@ def clean_text(text):
 def is_english(text):
     try:
         return detect(text[:1000]) == "en"
-    except Exception:  # empty / undetectable text
+    except Exception: 
         return False
 
 

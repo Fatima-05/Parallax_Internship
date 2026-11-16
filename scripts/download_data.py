@@ -2,7 +2,7 @@ import json
 import os
 from datasets import load_dataset
 
-N = 6000  # a bit over 5,000 because cleaning removes some rows
+N = 6000 
 os.makedirs("data/raw", exist_ok=True)
 
 ds = load_dataset("gfissore/arxiv-abstracts-2021", split="train", streaming=True)
