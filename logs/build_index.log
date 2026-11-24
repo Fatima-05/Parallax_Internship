@@ -1,0 +1,47 @@
+2026-11-23 23:06:19,164 5993 documents -> 14088 chunks (size 500, overlap 100)
+2026-11-23 23:06:20,410 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:06:20,495 Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:06:20,502 Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:06:20,514 0 chunks already stored, 14088 to embed
+2026-11-23 23:06:21,519 Use pytorch device_name: cuda
+2026-11-23 23:06:21,519 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-11-23 23:06:33,761 stored 500/14088 | 9.7 ms per chunk | RAM 1414 MB, GPU peak 340 MB
+2026-11-23 23:06:38,245 stored 1000/14088 | 7.4 ms per chunk | RAM 1420 MB, GPU peak 396 MB
+2026-11-23 23:06:43,338 stored 1500/14088 | 6.7 ms per chunk | RAM 1422 MB, GPU peak 396 MB
+2026-11-23 23:06:48,737 stored 2000/14088 | 7.5 ms per chunk | RAM 1424 MB, GPU peak 396 MB
+2026-11-23 23:06:52,944 stored 2500/14088 | 7.0 ms per chunk | RAM 1425 MB, GPU peak 396 MB
+2026-11-23 23:06:56,795 stored 3000/14088 | 6.1 ms per chunk | RAM 1427 MB, GPU peak 396 MB
+2026-11-23 23:07:00,908 stored 3500/14088 | 5.9 ms per chunk | RAM 1429 MB, GPU peak 396 MB
+2026-11-23 23:07:04,775 stored 4000/14088 | 6.2 ms per chunk | RAM 1430 MB, GPU peak 396 MB
+2026-11-23 23:07:09,284 stored 4500/14088 | 6.5 ms per chunk | RAM 1432 MB, GPU peak 396 MB
+2026-11-23 23:07:13,682 stored 5000/14088 | 6.9 ms per chunk | RAM 1433 MB, GPU peak 396 MB
+2026-11-23 23:07:17,665 stored 5500/14088 | 6.5 ms per chunk | RAM 1434 MB, GPU peak 396 MB
+2026-11-23 23:07:23,117 stored 6000/14088 | 6.9 ms per chunk | RAM 1435 MB, GPU peak 396 MB
+2026-11-23 23:07:28,358 stored 6500/14088 | 6.8 ms per chunk | RAM 1438 MB, GPU peak 396 MB
+2026-11-23 23:07:32,459 stored 7000/14088 | 6.6 ms per chunk | RAM 1439 MB, GPU peak 396 MB
+2026-11-23 23:07:37,391 stored 7500/14088 | 6.2 ms per chunk | RAM 1440 MB, GPU peak 396 MB
+2026-11-23 23:07:43,150 stored 8000/14088 | 7.2 ms per chunk | RAM 1442 MB, GPU peak 396 MB
+2026-11-23 23:07:48,591 stored 8500/14088 | 6.7 ms per chunk | RAM 1444 MB, GPU peak 396 MB
+2026-11-23 23:07:53,872 stored 9000/14088 | 6.5 ms per chunk | RAM 1445 MB, GPU peak 396 MB
+2026-11-23 23:07:59,016 stored 9500/14088 | 6.9 ms per chunk | RAM 1445 MB, GPU peak 396 MB
+2026-11-23 23:08:03,132 stored 10000/14088 | 6.6 ms per chunk | RAM 1447 MB, GPU peak 396 MB
+2026-11-23 23:08:06,986 stored 10500/14088 | 6.2 ms per chunk | RAM 1448 MB, GPU peak 396 MB
+2026-11-23 23:08:10,790 stored 11000/14088 | 6.2 ms per chunk | RAM 1449 MB, GPU peak 396 MB
+2026-11-23 23:08:14,806 stored 11500/14088 | 6.6 ms per chunk | RAM 1450 MB, GPU peak 403 MB
+2026-11-23 23:08:18,849 stored 12000/14088 | 6.5 ms per chunk | RAM 1452 MB, GPU peak 403 MB
+2026-11-23 23:08:22,718 stored 12500/14088 | 6.1 ms per chunk | RAM 1453 MB, GPU peak 403 MB
+2026-11-23 23:08:26,573 stored 13000/14088 | 5.9 ms per chunk | RAM 1453 MB, GPU peak 403 MB
+2026-11-23 23:08:30,603 stored 13500/14088 | 6.4 ms per chunk | RAM 1454 MB, GPU peak 403 MB
+2026-11-23 23:08:34,849 stored 14000/14088 | 6.7 ms per chunk | RAM 1455 MB, GPU peak 403 MB
+2026-11-23 23:08:35,601 stored 14088/14088 | 6.9 ms per chunk | RAM 1454 MB, GPU peak 403 MB
+2026-11-23 23:08:35,609 done: 14088 chunks in 127.4 s (9.0 ms per chunk) | collection size 14088
+2026-11-23 23:11:43,499 5993 documents -> 14088 chunks (size 500, overlap 100)
+2026-11-23 23:11:43,916 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:11:43,918 Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:11:43,918 Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-11-23 23:11:44,155 14088 chunks already stored, 0 to embed
+2026-11-24 21:48:51,687 5993 documents -> 14088 chunks (size 500, overlap 100)
+2026-11-24 21:48:53,147 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 21:48:53,158 Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 21:48:53,162 Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 21:48:54,762 14088 chunks already stored, 0 to embed
