@@ -45,3 +45,40 @@
 2026-11-24 21:48:53,158 Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
 2026-11-24 21:48:53,162 Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
 2026-11-24 21:48:54,762 14088 chunks already stored, 0 to embed
+2026-11-24 22:04:29,462 5993 documents -> 14088 chunks (size 500, overlap 100)
+2026-11-24 22:04:30,231 Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 22:04:30,325 Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 22:04:30,330 Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-11-24 22:04:30,338 0 chunks already stored, 14088 to embed
+2026-11-24 22:04:31,313 Use pytorch device_name: cuda
+2026-11-24 22:04:31,313 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-11-24 22:04:41,615 stored 500/14088 | 8.2 ms per chunk | RAM 1412 MB, GPU peak 340 MB
+2026-11-24 22:04:47,357 stored 1000/14088 | 7.3 ms per chunk | RAM 1418 MB, GPU peak 396 MB
+2026-11-24 22:04:52,305 stored 1500/14088 | 7.2 ms per chunk | RAM 1421 MB, GPU peak 396 MB
+2026-11-24 22:04:57,806 stored 2000/14088 | 7.2 ms per chunk | RAM 1423 MB, GPU peak 396 MB
+2026-11-24 22:05:03,999 stored 2500/14088 | 7.8 ms per chunk | RAM 1424 MB, GPU peak 396 MB
+2026-11-24 22:05:10,723 stored 3000/14088 | 7.2 ms per chunk | RAM 1426 MB, GPU peak 396 MB
+2026-11-24 22:05:16,631 stored 3500/14088 | 6.8 ms per chunk | RAM 1428 MB, GPU peak 396 MB
+2026-11-24 22:05:22,287 stored 4000/14088 | 7.0 ms per chunk | RAM 1429 MB, GPU peak 396 MB
+2026-11-24 22:05:27,987 stored 4500/14088 | 7.5 ms per chunk | RAM 1431 MB, GPU peak 396 MB
+2026-11-24 22:05:33,238 stored 5000/14088 | 7.0 ms per chunk | RAM 1433 MB, GPU peak 396 MB
+2026-11-24 22:05:38,783 stored 5500/14088 | 6.9 ms per chunk | RAM 1434 MB, GPU peak 396 MB
+2026-11-24 22:05:44,427 stored 6000/14088 | 7.2 ms per chunk | RAM 1434 MB, GPU peak 396 MB
+2026-11-24 22:05:49,435 stored 6500/14088 | 6.3 ms per chunk | RAM 1436 MB, GPU peak 396 MB
+2026-11-24 22:05:54,722 stored 7000/14088 | 6.6 ms per chunk | RAM 1436 MB, GPU peak 396 MB
+2026-11-24 22:05:59,805 stored 7500/14088 | 6.6 ms per chunk | RAM 1438 MB, GPU peak 396 MB
+2026-11-24 22:06:05,340 stored 8000/14088 | 7.0 ms per chunk | RAM 1441 MB, GPU peak 396 MB
+2026-11-24 22:06:10,623 stored 8500/14088 | 6.7 ms per chunk | RAM 1441 MB, GPU peak 396 MB
+2026-11-24 22:06:15,984 stored 9000/14088 | 6.7 ms per chunk | RAM 1442 MB, GPU peak 396 MB
+2026-11-24 22:06:21,263 stored 9500/14088 | 6.9 ms per chunk | RAM 1443 MB, GPU peak 396 MB
+2026-11-24 22:06:26,887 stored 10000/14088 | 7.0 ms per chunk | RAM 1445 MB, GPU peak 396 MB
+2026-11-24 22:06:32,334 stored 10500/14088 | 6.6 ms per chunk | RAM 1445 MB, GPU peak 396 MB
+2026-11-24 22:06:38,417 stored 11000/14088 | 6.9 ms per chunk | RAM 1446 MB, GPU peak 396 MB
+2026-11-24 22:06:44,033 stored 11500/14088 | 7.4 ms per chunk | RAM 1447 MB, GPU peak 403 MB
+2026-11-24 22:06:49,691 stored 12000/14088 | 7.3 ms per chunk | RAM 1449 MB, GPU peak 403 MB
+2026-11-24 22:06:55,162 stored 12500/14088 | 6.9 ms per chunk | RAM 1450 MB, GPU peak 403 MB
+2026-11-24 22:07:00,983 stored 13000/14088 | 6.7 ms per chunk | RAM 1451 MB, GPU peak 403 MB
+2026-11-24 22:07:06,323 stored 13500/14088 | 7.0 ms per chunk | RAM 1452 MB, GPU peak 403 MB
+2026-11-24 22:07:11,976 stored 14000/14088 | 6.9 ms per chunk | RAM 1452 MB, GPU peak 403 MB
+2026-11-24 22:07:13,081 stored 14088/14088 | 8.6 ms per chunk | RAM 1452 MB, GPU peak 403 MB
+2026-11-24 22:07:13,089 done: 14088 chunks in 156.7 s (11.1 ms per chunk) | collection size 14088

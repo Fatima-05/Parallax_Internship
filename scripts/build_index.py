@@ -48,8 +48,8 @@ def main():
             client.delete_collection(COLLECTION)
         except Exception:
             pass
-    collection=client.get_or_create_collection(
-        COLLECTION, metadata={"hnsw:space": "cosine", "model": MODEL_NAME})
+    collection = client.get_or_create_collection(
+        COLLECTION, metadata={"hnsw:space": "cosine", "model": MODEL_NAME, "hnsw:search_ef": 100})
     check_model(collection)
 
     done=set(collection.get(include=[])["ids"])
